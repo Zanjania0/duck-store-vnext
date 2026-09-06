@@ -1,0 +1,14 @@
+name = "duck-store-api"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "duck-store"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+ENVIRONMENT = "production"
+CORS_ORIGIN = "*"
+ADMIN_SESSION_TTL_SECONDS = "43200"

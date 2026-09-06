@@ -1,0 +1,17 @@
+{
+  "name": "duck-store-vnext",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {"node": ">=20"},
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "db:local": "wrangler d1 execute duck-store --local --file=./db/schema.sql",
+    "db:seed": "wrangler d1 execute duck-store --local --file=./db/seed.sql",
+    "worker:dev": "wrangler dev -c worker/wrangler.toml",
+    "worker:deploy": "wrangler deploy -c worker/wrangler.toml",
+    "market:import": "node scripts/import-market.mjs"
+  },
+  "devDependencies": {"wrangler": "^4.35.0"}
+}
