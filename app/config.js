@@ -3,5 +3,5 @@ window.DUCK_CONFIG = {
   supportUrl: 'https://t.me/Zanjani_a',
   channelUrl: 'https://t.me/duck_storee',
   storeName: 'Duck Store',
-  storeBotUsername: 'YOUR_BOT_USERNAME'
+  storeBotUsername: 'https://t.me/Duck_Storeeebot'
 };
