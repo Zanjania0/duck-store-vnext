@@ -1,5 +1,5 @@
 window.DUCK_CONFIG = {
-  apiBase: 'https://REPLACE-WITH-YOUR-WORKER.workers.dev',
+  apiBase: 'https://duck-store-api.ali-zanjani2007.workers.dev',
   supportUrl: 'https://t.me/Zanjani_a',
   channelUrl: 'https://t.me/duck_storee',
   storeName: 'Duck Store',
