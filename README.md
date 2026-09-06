@@ -86,7 +86,7 @@ No VPS is required for this architecture. Some features, especially external ful
 2. Set Worker secrets.
 3. Deploy Worker.
 4. Set API URL in frontend config.
-.
+..
 5. Deploy Pages from GitHub.
 6. Create admin session and change secret.
 7. Replace seed services with your real catalog.
