@@ -6,7 +6,7 @@ workers_dev = true
 [[d1_databases]]
 binding = "DB"
 database_name = "duck-store"
-database_id = "REPLACE_WITH_D1_DATABASE_ID"
+database_id = "3ec662ab-7845-4a31-a117-9aa7c984b097"
 
 [vars]
 ENVIRONMENT = "production"
