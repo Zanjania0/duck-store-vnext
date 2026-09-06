@@ -1,4 +1,4 @@
 window.DUCK_ADMIN_CONFIG = {
-  apiBase: 'https://REPLACE-WITH-YOUR-WORKER.workers.dev',
+  apiBase: 'https://duck-store-api.ali-zanjani2007.workers.dev',
   storeName: 'Duck Store Admin'
 };
